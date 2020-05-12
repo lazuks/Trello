@@ -143,13 +143,14 @@ form.example::after {
 }
 
 .imgsection2{
-width: 100%;
-height: 100%;
+width: 50%;
+height: 50%;
 }
 
 .txtsection2{
 
     text-align: left;
+    align-items: center;
 
 }
 .sddugme{
@@ -214,3 +215,251 @@ height: 100%;
     text-align: left;
 }
 
+/*SECTION 5*/
+.section5 {
+    padding: 2rem 8rem;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin-left: 3em;
+}
+
+.imgsection5{ 
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-left: 50%;
+    
+}
+
+.section5 .find {
+  position: absolute;
+  top: 71%;
+  left: 180%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  color: #212529;
+  background-color: #EBECF0;
+  border-color: #EBECF0;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+/*SECTION 6*/
+
+.section6 {
+    padding: 2rem 8rem;
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+    background-image: url("/home/lazar/Desktop/Lazar HTML/trellians-2x-2.png");
+    margin-left: 3em;
+}
+
+.imgsection6 {
+    width: 50%;
+    height: 50%;
+    padding: 2rem 8rem;
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.txtsection6 {
+    text-align: center;
+    display: block;
+    font-size: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 3em;
+    align-items: center;
+}
+
+.section6 .txtsection6 > p {
+    text-align: center;
+    align-items: center;
+    margin-left: 5em;
+    margin-right: 10em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section6 .txtsection6 > button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+/*SECTION 7*/
+.section7 {
+    padding: 2rem 8rem;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin-left: 3em;
+    align-items: center;
+}
+
+.txtsection7 {
+    align-items: center;
+    justify-content: center;
+    margin-left: 30em;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: Raleway;
+    color: #546e7a;
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+
+}
+
+/*SECTION 8*/
+.linkovi {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-areas: 
+    ". templates pricing apps jobs blog developers about help legal cookiesettings privacy ."
+    ". . . . . . atlassian . . . . . .  ";
+
+
+}
+
+.Templates {
+    grid-area: templates;
+    background-color: white;
+    text-align:  center;
+    justify-self: stretch;
+    align-self: stretch;
+
+}
+
+.Pricing {
+    grid-area: pricing;
+    background-color: white;
+    text-align:  center;
+    justify-self: stretch;
+    align-self: stretch;
+
+
+}
+
+.Apps {
+    grid-area: apps;    grid-gap: 5px;
+    background-color: white;
+    text-align:  center;
+    justify-self: stretch;
+    align-self: stretch;
+
+
+}
+
+.Jobs {
+    grid-area: jobs;
+    background-color: white;
+    text-align:  center;
+    justify-self: stretch;
+    align-self: stretch;
+
+}
+
+.Blog {
+    grid-area: blog;
+    background-color: white;
+    text-align:  center;
+    justify-self: stretch;
+    align-self: stretch;
+
+}
+
+.Developers {
+    grid-area: developers;
+    background-color: white;
+    text-align:  center;
+    justify-self: stretch;
+    align-self: stretch;
+
+}
+
+.About {
+    grid-area: about;
+    background-color: white;
+    text-align:  center;
+    justify-self: stretch;
+    align-self: stretch;
+
+}
+
+.Help {
+    grid-area: help;
+    background-color: white;
+    text-align:  center;
+    justify-self: stretch;
+    align-self: stretch;
+
+}
+
+.Legal {
+    grid-area: legal;
+    background-color: white;
+    text-align:  center;
+    justify-self: stretch;
+    align-self: stretch;
+ 
+}
+
+.CookieSettings {
+    grid-area: cookiesettings;
+    background-color: white;
+    text-align:  center;
+    justify-self: stretch;
+    align-self: stretch;
+  
+}
+
+.Privacy {
+    grid-area: privacy;
+    background-color: white;
+    text-align:  center;
+    justify-self: stretch;
+    align-self: stretch;
+
+ 
+}
+
+.atlassian {
+    grid-area: atlassian;
+
+}
