@@ -1,0 +1,274 @@
+.CeoSajt {
+    display: grid;
+    grid-template-areas: 
+    "NavBar"
+    "PrviProzor"
+    "DrugiProzor";
+}
+
+.NavBar {
+    grid-area: NavBar;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+}
+
+.NavBar .LogoSlika {
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+} 
+
+.NavBar .NazivSajta {
+    float: left;
+    font-size: 40px;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    color: #002d4f;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.NavBar .home {
+    float: right;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    margin-top: 35px;
+    margin-right: 45px;
+    color: #002d4f;
+}
+
+.NavBar .home:hover {
+    color: #00caf4;
+}
+
+.NavBar .blog {
+    float: right;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    margin-top: 35px;
+    margin-right: 40px;
+    color: #002d4f;
+}
+
+.NavBar .blog:hover {
+    color: #00caf4;
+}
+
+.NavBar .content {
+    float: right;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    margin-top: 35px;
+    margin-right: 35px;
+    color: #002d4f;
+}
+
+.NavBar .content:hover {
+    color: #00caf4;
+}
+
+.NavBar .tower {
+    float: right;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    color: #00caf4;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 35px;
+    margin-right: 30px;
+}
+ 
+.NavBar .tower:hover {
+    background-color: #00caf4;
+    color: white;
+}
+
+
+
+.PrviProzor {
+    grid-area: PrviProzor;
+    width: 100%;
+    height: 500px;
+    background-color: #002d4f;
+}
+
+.PrviProzor .Naslov {
+    font-size: 48px;
+    line-height: 3.75rem; 
+    width: 450px;   
+    margin-top: 150px;
+    margin-left: 150px;
+    color: #00caf4;
+}
+
+.PrviProzor .Txt {
+    font-size: 1.5rem;
+    color: snow;
+    width: 500px;
+    margin-top: -10px;
+    margin-left: 150px;
+
+}
+
+.PrviProzor .Slika {
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-top: -250px;
+    margin-right: 350px;
+}
+
+
+
+.DrugiProzor {
+    grid-area: DrugiProzor;
+    background-color: #184772;
+    width: 100%;
+    height: 1000px;
+}
+
+.DrugiProzor .TxtNaslov {
+    font-size: 30px;
+    width: 700px;   
+    margin-top: 100px;
+    margin-left: 250px;
+    color: snow;
+}
+
+.DrugiProzor .PrvaSlika {
+    float: left;
+    background-color: #002d4f;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.PrvaSlika .Kapa {
+    width: 200px;
+    height: 200px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+
+.DrugiProzor .DrugaSlika {
+    background-color: #002d4f;
+    width: 300px;
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 480px;
+}
+
+.DrugaSlika .Pretraga {
+    width: 200px;
+    height: 200px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+
+.DrugiProzor .TrecaSlika {
+    float: right;
+    background-color: #002d4f;
+    width: 300px;
+    height: 300px;
+    margin-top: -300px;
+    margin-right: 100px;
+}
+
+.TrecaSlika .Srce {
+    width: 200px;
+    height: 200px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+
+.DrugiProzor .PrviTxt {
+    float: left;
+    background-color: #24537e;
+    width: 300px;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.PrviTxt .Naslov {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    color: #00caf4;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.PrviTxt .Txt {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    color: snow;
+    line-height: 1.5rem;
+    margin-top: -10px;
+    margin-left: 30px;
+    width: 200px;
+ }
+
+
+.DrugiProzor .DrugiTxt {
+    background-color: #24537e;
+    width: 300px;
+    height: 250px;
+    margin-top: -30px;
+    margin-left: 480px;
+}
+
+.DrugiTxt .Naslov {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    color: #00caf4;
+    padding-top: 70px;
+    margin-left: 30px;
+}
+
+.DrugiTxt .Txt {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    color: snow;
+    line-height: 1.5rem;
+    margin-top: -10px;
+    margin-left: 30px;
+    width: 200px;
+}
+
+
+.DrugiProzor .TreciTxt {
+    float: right;
+    background-color: #24537e;
+    width: 300px;
+    height: 250px;
+    margin-top: -250px;
+    margin-right: 100px;
+}
+
+.TreciTxt .Naslov {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    color: #00caf4;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.TreciTxt .Txt {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    color: snow;
+    line-height: 1.5rem;
+    margin-top: -10px;
+    margin-left: 30px;
+    width: 200px;
+}
